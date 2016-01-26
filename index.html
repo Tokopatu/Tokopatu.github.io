@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BelanjaBelanjeBagus</title>
+  <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+  <link href="color/default.css" rel="stylesheet">
+
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+
+<!--<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />-->
+
+
+  <!--theme-style-->
+
+ <link href="css/limitedisien.css" rel="stylesheet" type="text/css" media="all" />  
+
+ <script src="js/jquery-1.11.0.min.js"></script>
+<!--Custom-Theme-files-->
+<!--theme-style-->
+<link href="css/sty.css" rel="stylesheet" type="text/css" media="all" />  
+
+ <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body ><!--id="page-top" data-spy="scroll" data-target=".navbar-custom"-->
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <h1>BelanjaBelanjeBagus</h1>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active "><a href="#home">Home</a></li>
+        <li><a href="#about">Brand</a></li>
+    <li><a href=".product">Product</a></li>
+    <li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">pengaturan <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="log.html">Login</a></li>
+            <li><a href="transaksi.html">Transaksi Detail</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+  <!-- Section: intro -->
+    <section >
+  
+      <!--banner-starts-->
+  <div class="bnr" id="home">
+    <div  id="top" class="callbacks_container">
+      <ul class="rslides" id="slider4">
+          <li>
+          <img src="images/bc7.jpg" alt=""/>
+        </li>
+        <li>
+          <img src="images/bc8e.jpg" alt=""/>
+        </li>
+        <li>
+          <img src="images/bc10.jpg" alt=""/>
+        </li>
+      </ul>
+    </div>
+    <div class="clearfix"> </div>
+  </div>
+  <!--banner-ends--> 
+    <div class="page-scroll">
+      <a href="#about" class="btn btn-circle">
+        <i class="fa fa-angle-double-down animated"></i>
+      </a>
+    </div>
+    </section>
+  <!-- /Section: intro --> 
+  <!--bottom-header-->
+
+        <script src="js/responsiveslides.min.js"></script>
+       <script>
+          // You can also use "$(window).load(function() {"
+          $(function () {
+            // Slideshow 4
+            $("#slider4").responsiveSlides({
+              auto: true,
+              pager: true,
+              nav: true,
+              speed: 500,
+              namespace: "callbacks",
+              before: function () {
+                $('.events').append("<li>before event fired.</li>");
+              },
+              after: function () {
+                $('.events').append("<li>after event fired.</li>");
+              }
+            });
+      
+          });
+        </script>
+
+ <!--aboutt-starts-->
+
+<section id="about" class="home-section text-center"> <!--class="home-section text-center"-->
+    <div class="heading-about">
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow bounceInDown" data-wow-delay="0.4s">
+          <div class="section-heading">
+          <h2 >our brand</h2>
+          <i class="fa fa-2x fa-angle-down"></i>
+
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+
+   
+  <div class="aboutt"> 
+    <div class="container">
+      <div class="aboutt-top grid-1">
+         <div class="col-md-4 aboutt-left">
+          <div class="wow bounceInUp" data-wow-delay="0.2s">
+              <div >
+                  <figure class="effect-bubba">
+                    <img class="img-responsive" src="images/bran2.png" alt=""/>
+                    <figcaption>
+                      <h4>Our Brand</h4>
+                      <p>Desainerya memang jelek tapi tidak dengan produk yang kami tawarkan </p>  
+                    </figcaption>     
+                  </figure>
+               </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 aboutt-left">
+          <div class="wow bounceInUp" data-wow-delay="0.5s">
+              <div >
+                  <figure class="effect-bubba">
+                    <img class="img-responsive" src="images/bran.jpg" alt=""/>
+                    <figcaption>
+                      <h4>Our Brand</h4>
+                      <p>Desainernya memang jelek tapi tidak dengan produk yang kami tawarkan</p>  
+                      <p></p>
+                    </figcaption>     
+                  </figure>
+               </div>
+          </div>
+
+        </div>
+         <div class="col-md-4 aboutt-left">
+          <div class="wow bounceInUp" data-wow-delay="0.8s">
+              <div >
+                  <figure class="effect-bubba">
+                    <img class="img-responsive" src="images/bran3.jpg" alt=""/>
+                    <figcaption>
+                      <h4>Our Brand</h4>
+                      <p>Desainernya memang jelek tapi tidak dengan produk yang kami tawarkan</p>  
+                    </figcaption>     
+                  </figure>
+               </div>
+          </div>
+
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!--aboutt-end-->
+  
+<!--product-starts-->
+
+
+  <section class="product" id="prod"> 
+    <div class="container">
+      <div class="product-top pro">
+        <div class="product-one">
+          <div class="col-md-3 product-left">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+              <div class="product-main simpleCart_shelfItem">
+                  
+                       <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/pro2.jpg" alt="" /></a>
+                
+                      <div class="product-bottom">
+                          <h3>item code 4041</h3>
+                          <p>Explore Now</p>
+                          <h4><a class="item_add" href="single.html"><i></i></a> <span class=" item_price">500k</span></h4>
+                      </div>
+                      <div class="srch">
+                        <span>-50%</span>
+                      </div>
+                     
+              </div>
+          </div>
+        </div>
+          <div class="col-md-3 product-left">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <div class="product-main simpleCart_shelfItem">
+                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/pro33.jpg" alt="" /></a>
+                <div class="product-bottom">
+                  <h3>item code 4042</h3>
+                  <p>Explore Now</p>
+                  <h4><a class="item_add" href="single.html"><i></i></a> <span class=" item_price">550k</span></h4>
+                </div>
+                <div class="srch">
+                  <span>-50%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+         <div class="col-md-3 product-left">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <div class="product-main simpleCart_shelfItem">
+                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/pro4.jpg" alt="" /></a>
+                <div class="product-bottom">
+                  <h3>item code 4044</h3>
+                  <p>Explore Now</p>
+                   <h4><a class="item_add" href="single.html"><i></i></a> <span class=" item_price">600k</span></h4>
+                </div>
+                <div class="srch">
+                  <span>-50%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 product-left">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="product-main simpleCart_shelfItem">
+              <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/pro5.jpg" alt="" /></a>
+              <div class="product-bottom">
+                <h3>item code 4045</h3>
+                <p>Explore Now</p>
+                <h4><a class="item_add" href="single.html"><i></i></a> <span class=" item_price">700k</span></h4>
+              </div>
+              <div class="srch">
+                <span>-50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="product-one">
+           <div class="col-md-3 product-left">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+              <div class="product-main simpleCart_shelfItem">
+                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/pro9.jpg" alt="" /></a>
+                <div class="product-bottom">
+                  <h3>item code 4051</h3>
+                  <p>Explore Now</p>
+                <h4><a class="item_add" href="single.html"><i></i></a> <span class=" item_price">500k</span></h4>
+                </div>
+                <div class="srch">
+                  <span>-50%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="col-md-3 product-left">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="800ms">
+              <div class="product-main simpleCart_shelfItem">
+                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/pro7.jpg" alt="" /></a>
+                <div class="product-bottom">
+                  <h3>item kode 4052</h3>
+                  <p>Explore Now</p>
+              <h4><a class="item_add" href="single.html"><i></i></a> <span class=" item_price">400k</span></h4>
+                </div>
+                <div class="srch">
+                  <span>-50%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="col-md-3 product-left">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
+              <div class="product-main simpleCart_shelfItem">
+                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/pro11.jpg" alt="" /></a>
+                <div class="product-bottom">
+                  <h3>item code 4053</h3>
+                  <p>Explore Now</p>
+                  <h4><a class="item_add" href="single.html"><i></i></a> <span class=" item_price">250k</span></h4>
+                </div>
+                <div class="srch">
+                  <span>-50%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+         <div class="col-md-3 product-left">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div class="product-main simpleCart_shelfItem">
+              <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/pro13.jpg" alt="" /></a>
+              <div class="product-bottom">
+                <h3>item code 4054</h3>
+                <p>Explore Now</p>
+                 <h4><a class="item_add" href="single.html"><i></i></a> <span class=" item_price">300k</span></h4>
+              </div>
+              <div class="srch">
+                <span>-50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+
+ </section>
+  <!--product-end-->
+
+
+
+    <!-- Section: contact -->
+    <section id="contact" class="home-section text-center">
+    <div class="heading-contact">
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow bounceInDown" data-wow-delay="0.4s">
+          <div class="section-heading">
+          <h2>Get in contact</h2>
+          <i class="fa fa-2x fa-angle-down"></i>
+
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="container">
+
+    <div class="row">
+      <div class="col-lg-2 col-lg-offset-5">
+        <hr class="marginbot-50">
+      </div>
+    </div>
+
+
+
+
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="boxed-grey">
+                <form id="contact-form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                     
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    
+    <div class="col-lg-4">
+      <div class="widget-contact">
+        <h5>Main Office</h5>
+        
+        <address>
+          <strong>BelanjaBelanjeBagus.</strong><br>
+          beralmat di Kendari Kab.Unaaha Jln Abunawas No 543, Sulawesi Tenggara<br>
+          <abbr title="Phone">P:</abbr> 085200467704
+        </address>
+
+        <address>
+          <strong>Email</strong><br>
+          <a href="mailto:#">madeyobiwirawan@gmail.com</a>
+        </address>  
+        <address>
+          <strong>We're on social networks</strong><br>
+                        <ul class="company-social">
+                            <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li class="social-dribble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                            <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                        </ul> 
+        </address>          
+      
+      </div>  
+    </div>
+    </div>  
+
+    </div>
+  </section>
+  <!-- /Section: contact -->
+
+
+
+
+
+
+  
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <div class="wow shake" data-wow-delay="0.4s">
+          <div class="page-scroll marginbot-30">
+            <a href="#home" id="totop" class="btn btn-circle">
+              <i class="fa fa-angle-double-up animated"></i>
+            </a>
+          </div>
+          </div>
+          <p>&copy;Copyright 2016 - BelanjaBelanjeBagus .All rights reserved. Designed by yobiwirawan</p>
+                    <!-- 
+                        All links in the footer should remain intact. 
+                        Licenseing information is available at: http://bootstraptaste.com/license/
+                        You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Squadfree
+                    -->
+        </div>
+      </div>  
+    </div>
+  </footer>
+</div>
+
+ <!-- Core JavaScript Files -->
+
+   <!-- <script src="js/jquery.min.js"></script>-->
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.easing.min.js"></script> 
+
+  <script src="js/jquery.scrollTo.js"></script>
+
+  <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+
+    <script src="js/custom.js"></script>
+
+
+     <script type="text/javascript" src="js/lightbox.min.js"></script>
+
+
+
+
+
+</body>
+
+
+</html>
